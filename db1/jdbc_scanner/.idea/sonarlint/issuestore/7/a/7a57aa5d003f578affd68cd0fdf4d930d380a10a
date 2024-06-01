@@ -1,0 +1,22 @@
+
+œ
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(šàîÍ8¿ÑŞ„÷1J$8406d814-c319-486f-b2ef-47349dc09558
+²
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(•Â©{8ÀÑŞ„÷1J$e36649a8-c972-4686-9c97-7656e6e40122
+
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ëóŒıÿÿÿÿ8ÒÑŞ„÷1J$d2b067ff-6f38-4540-828d-b920d416fe1b
+~	java:S125"<This block of commented-out lines of code should be removed.(Ö‡¨˜8ÕÑŞ„÷1J$f6c3bc7d-fa5c-4529-8fa6-bfbcf2ef500b
+z
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÕÑŞ„÷1J$e7b8b61b-a969-41b9-b759-7b7ec9d6afa5
+~	java:S125E"<This block of commented-out lines of code should be removed.(†€éˆ8ØÑŞ„÷1J$da21c5fa-6256-4ffe-a2d9-e486f144bd03
+z
+java:S1135D"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ØÑŞ„÷1J$c8b0d400-4656-40d1-9486-ca72ab5672db
+~	java:S125p"<This block of commented-out lines of code should be removed.(†€éˆ8ÛÑŞ„÷1J$b92315ac-f2fe-4c6f-afa7-5bc7083b8fb3
+s
+java:S1481}"+Remove this unused "member" local variable.(¿šşÛøÿÿÿÿ8ÚÑŞ„÷1J$a795469b-c68f-437c-91cb-44ca60de5e07
+	java:S125ƒ"<This block of commented-out lines of code should be removed.(…Õ»›8ÛÑŞ„÷1J$7e51a520-4fee-4c39-b38f-ea95df586fbf
+	java:S125¬"<This block of commented-out lines of code should be removed.(†€éˆ8ÜÑŞ„÷1J$46dba7eb-1fe2-4766-99cd-7cffe298d024
+t
+java:S1481¸"+Remove this unused "member" local variable.(¿šşÛøÿÿÿÿ8ÜÑŞ„÷1J$55e4b662-1fc5-4ccf-aab3-a31588287a0e
+	java:S125Ó"<This block of commented-out lines of code should be removed.(†€éˆ8İÑŞ„÷1J$9e0ed8f0-012d-494c-9387-917c18c341b7
+	java:S125î"<This block of commented-out lines of code should be removed.(†€éˆ8ÎŒä„÷1J$92af7dab-217b-4436-a745-cc7cb510ffa1

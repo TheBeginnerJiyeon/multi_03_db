@@ -1,0 +1,76 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+-- New script in HR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 14.
+-- Time: 오후 1:01:52
+
+
+--VIEW (뷰)
+--SELECT 쿼리문을 저장한 객체이다
+--실질적인 데이터를 저장하고 있지않음
+--테이블을 사용하는 것과 동일하게 사용할수있다.
+--매번 자주 사용하는 쿼리문을 정의 해 두고 싶을때 뷰를 생성
+--VIEW 를 한번 만들어두고 마치 테이블처럼 사용한다고 생각!
+--CREATE [OR REPLACE] VIEW 뷰이름 AS 서브쿼리
+
+
+-- GRANT CREATE VIEW TO HR -- 시트템 계정에서 권한 주기
+
+DROP VIEW V_EMP;
+
+CREATE OR REPLACE VIEW V_EMP
+(사번, 이름, 부서)
+AS 
+SELECT EMPLOYEE_ID, FIRST_NAME || ' ' || LAST_NAME , DEPARTMENT_ID
+FROM EMPLOYEES ;
+
+
+SELECT * FROM V_EMP;
+
+
+-- 사번 , 이름 , 직급명, 부서명 , 근무지역(시티명)을 조회하고, 
+--그결과를 V_RESULT_EMP 라는 뷰를 생성해서 저장하세요
+
+SELECT * FROM EMPLOYEES;
+
+
+
+CREATE OR REPLACE VIEW V_RESULT_VIEW
+(사번, 이름, 직급명, 부서명, 근무지역(시티명))
+AS 
+
+SELECT A.EMPLOYEE_ID, A.FIRST_NAME || ' ' || A.LAST_NAME , D.JOB_TITLE,  C.DEPARTMENT_NAME , 
+D.CITY 
+FROM EMPLOYEES A
+LEFT JOIN DEPARTMENTS B ON A.EMPLOYEE_ID = B.EMPLOYEE_ID
+LEFT JOIN JOBS C ON C.JOB_ID = D.JOB_ID
+LEFT JOIN LOCATIONS D ON D.LOCATION_ID = C.LOCATION_ID
+;
+
+
+SELECT * FROM V_RESULT_EMP;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

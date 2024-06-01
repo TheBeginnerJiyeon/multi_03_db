@@ -1,0 +1,29 @@
+
+b
+java:S2259B"@A "NullPointerException" could be thrown; "ps" is nullable here.(Š¡²Äşÿÿÿÿ8×š¹Š÷1
+c
+java:S2259ƒ"@A "NullPointerException" could be thrown; "ps" is nullable here.(Š¡²Äşÿÿÿÿ8×š¹Š÷1
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8×š¹Š÷1
+j
+java:S2095]"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8×š¹Š÷1
+G	java:S106"+Replace this use of System.out by a logger.(éŠ¹ì8Úš¹Š÷1
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8Ûš¹Š÷1
+L	java:S106"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8Ûš¹Š÷1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8Ûš¹Š÷1
+G	java:S106"+Replace this use of System.out by a logger.(Ñ©Ê8Üš¹Š÷1
+L	java:S106"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8Üš¹Š÷1
+L	java:S106'"+Replace this use of System.out by a logger.(¸ÚÅğøÿÿÿÿ8Üš¹Š÷1
+L	java:S1062"+Replace this use of System.out by a logger.(«ïœˆşÿÿÿÿ8Üš¹Š÷1
+L	java:S106="+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8İš¹Š÷1
+L	java:S106O"+Replace this use of System.out by a logger.(‡àŞ‘ùÿÿÿÿ8İš¹Š÷1
+J
+java:S4925W"-Remove this "Class.forName()", it is useless.(ùíÄé8İš¹Š÷1
+L	java:S106X"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8Şš¹Š÷1
+X
+java:S6437]"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8Şš¹Š÷1
+G	java:S106^"+Replace this use of System.out by a logger.(Ñ©Ê8Şš¹Š÷1
+L	java:S106b"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8Şš¹Š÷1
+L	java:S106~"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8àš¹Š÷1

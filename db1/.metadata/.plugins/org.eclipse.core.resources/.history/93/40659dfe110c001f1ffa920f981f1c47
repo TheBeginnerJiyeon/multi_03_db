@@ -1,0 +1,91 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 7.
+-- Time: 오전 10:01:36
+
+--DB는 저장할 대상을 선정하고
+--대상에 어떤 속성(컬럼, 항목)들이 정의해야한다.
+--
+--대상 == OBJECT == 객체, 개체 == ENTITY(엔터티, 엔티티)
+--
+--쇼핑몰을 만들 때 저장할 대상 3가지 : 회원, 게시판, 물건
+--==> 저장할 대상(엔티티, 개체) 
+--==> 개체는 "테이블"로 만들게 된다.!!
+--==> 관계성: 회원이 물건을 사다.!(저장할 필요)
+--                 관계성 "테이블"로 만들게 된다.!!
+
+
+CREATE TABLE BBS
+(	
+	NO NUMBER(38,0),
+	TITLE VARCHAR2(100),
+	CONTENT VARCHAR2(100),
+	WRITER VARCHAR2(100)
+);
+
+CREATE TABLE PRODUCT(
+	id  NUMBER(38,0),
+	name varchar2(200), 
+	content varchar2(200), 
+	price varchar2(200), 
+	company varchar2(200), 
+	img varchar2(200)
+);
+
+
+--CREATE TABLE MEMBER -- 이미 있어서 그냥 안만듬 
+--   (	
+--  ID VARCHAR2(10), 
+--	PW VARCHAR2(10), 
+--	NAME VARCHAR2(10), 
+--	TEL VARCHAR2(10)
+--   )
+
+-- DML(Data Manupulation Language)
+-- INSERT, UPDATE, DELETE, SELECT
+-- : 데이터 조작 언어, 테이블에 값을 삽입하거나, 수정하거나,
+--   삭제하거나, 조회하는 언어
+
+
+--INSERT : 새로운행을 추가하는 구문이다. 
+--         테이블의 행의 갯수가 증가한다. 
+
+-- 테이블에 모든 컬럼에 대해 값을 INSERT
+-- INSERT INTO 테이블명  VALUES(데이터, 데이터,,,,...)
+
+-- 테이블에 일부컬럼에대해 INSERT
+ -- INSERT INTO 테이블명(컬럼명, 컬럼명, 컬럼명,....)  VALUES(데이터, 데이터,데이터,,,...)
+
+-- INSERT 연습
+
+
+/*INSERT INTO "MEMBER" values('100','3456','jyjy','011','1111' );
+// too many values*/
+
+/*INSERT INTO MEMBER(id, pw, name) values('sd','123','ahb'); 
+// 넣고자 하는 컬럼 순서 중요함*/
+
+/*INSERT INTO MEMBER(id, pw, name, company) values('sd','123','ahb','lg');
+// 정의되지 않은 컬럼..*/
+
+/*INSERT INTO MEMBER
+	(ID, PW, NAME, TEL)
+VALUES
+	('', '', '');
+//  값의 수가 충분하지 않습니다*/
+
+SELECT * FROM "MEMBER" ;
+
+COMMIT;
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 6.
+-- Time: 오후 10:00:20
+
+
+SELECT EMPNO, ENAME, SAL, COMM, SAL+COMM,
+NVL(COMM,0),
+SAL+NVL(COMM,0)
+FROM EMP;
+
+SELECT EMPNO, ENAME, COMM,
+NVL2(COMM, 'O','X'),
+NVL2(COMM, SAL*12+COMM, SAL*12) AS ANNSAL
+FROM EMP;
+
+
+SELECT EMPNO, ENAME, JOB, SAL,
+DECODE(JOB,
+		'MANAGER',SAL*1.1,
+		'SALESMAN',SAL*1.05,
+		'ANALYST',SAL,
+		SAL*1.03) AS UPSAL
+		FROM EMP;
+		
+
+SELECT EMPNO, ENAME, JOB, SAL,
+	CASE JOB
+		WHEN 'MANAGER' THEN SAL*1.1
+		WHEN 'SALESMAN' THEN SAL*1.05
+		WHEN 'ANALYST' THEN SAL
+		ELSE SAL*1.03
+	END AS UPSAL
+	FROM EMP;
+
+SELECT EMPNO, ENAME, COMM,
+	CASE
+	WHEN COMM IS NULL THEN '해당사항 없음'
+	WHEN COMM=0 THEN '수당 없음'
+	WHEN COMM>0 THEN ' 수당 : ' || COMM		
+	END AS COMM_TEXT
+	FROM EMP;
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

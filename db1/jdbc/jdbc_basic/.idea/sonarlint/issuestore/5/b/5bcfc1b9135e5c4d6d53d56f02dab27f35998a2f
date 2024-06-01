@@ -1,0 +1,20 @@
+
+[
+java:S2259C"@A "NullPointerException" could be thrown; "ps" is nullable here.(Š¡²Äþÿÿÿÿ
+c
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅþÿÿÿÿ
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á
+E	java:S106"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ
+Q
+java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅþÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Ñ©Ê
+E	java:S106"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¸ÚÅðøÿÿÿÿ
+E	java:S106""+Replace this use of System.out by a logger.(¸ÚÅðøÿÿÿÿ
+@	java:S106%"+Replace this use of System.out by a logger.(¼ŸÇå
+@	java:S106&"+Replace this use of System.out by a logger.(Óç£Ã
+E	java:S106*"+Replace this use of System.out by a logger.(õ¢ÝÅÿÿÿÿÿ
+@	java:S106,"+Replace this use of System.out by a logger.(ÕÐá°
+E	java:S1061"+Replace this use of System.out by a logger.(‚Á¤Ÿûÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ

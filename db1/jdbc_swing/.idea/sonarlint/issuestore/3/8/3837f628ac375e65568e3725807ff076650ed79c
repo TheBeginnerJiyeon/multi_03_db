@@ -1,0 +1,48 @@
+
+‡	java:S112Ò"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿJ$0c482cb0-0b9e-4013-84b5-d23fdab8ba0f
+l
+java:S3740”"/Provide the parametrized type for this generic.(‘Ìµ¼J$75a050a1-70dd-4b03-b298-057c6c914e0f
+l
+java:S3740”"/Provide the parametrized type for this generic.(‘Ìµ¼J$81611f2a-6ef6-40b4-90e2-7c78b7cb5f76
+q
+java:S3740¹"/Provide the parametrized type for this generic.(à®ÆûÿÿÿÿJ$d294f647-e636-4076-bb9f-ad4218bb6077
+l
+java:S3740Ô"/Provide the parametrized type for this generic.(åÇ°J$dcfa0e52-2ba3-4591-98f4-01fccf8104e2
+š	java:S135Ü"YReduce the total number of break and continue statements in this loop to use at most one.(ÖçàŸùÿÿÿÿJ$e0ed6c7b-23e6-46fd-9109-c255ad36734b
+“
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(«¸œõJ$6876b7db-3902-49a0-bc9f-d0bcbe4b78f4
+
+java:S1104"QMake inUse a static final constant or non-public and provide accessors if needed.(í–J$7979653b-cceb-45a5-a993-97659a0c8948
+“	java:S116•"RRename this field "_driver" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀØ¦¤úÿÿÿÿJ$97cf2a18-cf06-4a44-9804-9a2bd46f8edd
+	java:S116–"ORename this field "_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿”÷äüÿÿÿÿJ$59177077-45b9-4e92-a7bd-1629411dc0dc
+Œ	java:S116—"PRename this field "_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¹‹ğJ$b5fff672-963b-4a56-ac8a-1bc8d061c442
+•	java:S116˜"TRename this field "_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸“Í¿øÿÿÿÿJ$9834fa4c-18a0-4d47-a0fe-7343442f8812
+”	java:S116™"SRename this field "_traceOn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯üÖ şÿÿÿÿJ$165e4da9-85c2-4e62-a2cf-7577ab181915
+–	java:S116›"[Rename this field "_openConnections" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¸EJ$55e95b94-bd76-4a64-992b-f3307478be29
+Ã
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½Í‘ÍşÿÿÿÿJ$bba9ad4e-4a44-44ef-b3fd-52260f555a4a
+ƒ
+java:S1659–"ADeclare "_url" and all following declarations on a separate line.(¿”÷äüÿÿÿÿJ$fedfd2eb-d4e9-4bca-8f03-4f138ca6b325
+¢
+java:S1149”"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‘Ìµ¼J$ec835ac2-4490-4376-a333-22f23dba9734
+§
+java:S1149¹"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(à®ÆûÿÿÿÿJ$f4e46248-960c-4fd1-bc4e-062be847a355
+u
+java:S2168§"9Remove this dangerous instance of double-checked locking.(ß“ïJ$87d0111c-523b-4a6b-aaed-bc2cd61614cf
+p
+java:S1874Õ"3Remove this use of "newInstance"; it is deprecated.(ÖÕÀ™J$7044d1d6-258b-4986-ba59-e816f5275347
+n
+java:S1181à"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8ºÓÀ…ö1J$28124799-629a-4714-b7e9-a4312c1beb7d
+h
+java:S1481ê"&Remove this unused "c" local variable.(õĞ“”ûÿÿÿÿJ$0d5376f7-ceba-4482-9ae8-8a3ff034532e
+
+java:S5738õ"FDon't override this deprecated method, it has been marked for removal.(­§óùÿÿÿÿ8ó„“ºö1J$1f300fd7-4aaf-4fce-b0b9-59ebc87312a7
+
+java:S1854‚"6Remove this useless assignment to local variable "co".(¹æÿ‰üÿÿÿÿ8ó„“ºö1J$904fc4e9-3db6-4797-b247-772de853054d
+v
+java:S1113õ"-Do not override the Object.finalize() method.(­§óùÿÿÿÿ8ó„“ºö1J$8a42063d-5f44-4cd8-b5e9-b072b26a8877
+o
+java:S1174õ"&Make this finalize() method protected.(­§óùÿÿÿÿ8ô„“ºö1J$9a93529f-c631-4171-8ff8-d6ea1fe77644
+o
+java:S1481ø"&Remove this unused "c" local variable.(õĞ“”ûÿÿÿÿ8ô„“ºö1J$9af6697e-22cd-4e0a-a4d5-a0ddd640c4ab
+l	java:S106‰"+Replace this use of System.err by a logger.(šäœÎùÿÿÿÿJ$4869c0ac-ebf7-4c11-8e85-4ccf1fd2f329

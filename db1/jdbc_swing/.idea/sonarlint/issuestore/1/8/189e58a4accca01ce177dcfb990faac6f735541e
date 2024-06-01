@@ -1,0 +1,29 @@
+
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÄªµøÿÿÿÿ8¹°Íˆö1J$15f8e374-57f7-4a52-867d-445545363a64
+p
+java:S1604/"(Make this anonymous inner class a lambda(Ì­›àÿÿÿÿÿ8¹°Íˆö1J$123d8107-9bf6-4ed3-b66f-acf09bb2c218
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ß«Ö„8º°Íˆö1J$b51e8b22-ea47-40b0-a08c-edde0c7432a2
+m
+java:S1197"*Move the array designators [] to the type.(ªç™¨8Æ°Íˆö1J$b80d5039-d600-4dde-8d91-f35edee29117
+~	java:S125'"<This block of commented-out lines of code should be removed.(²üÅ×8È°Íˆö1J$ea8bd31c-1151-40de-a28f-b733e6789460
+q
+java:S19056")Remove this unnecessary cast to "Object".(Ô›ªÚÿÿÿÿÿ8Ê°Íˆö1J$bf1029cf-eb45-48d0-8dcf-9c35f4749338
+m	java:S106\"+Replace this use of System.out by a logger.(˜¬Ì‰8Ë°Íˆö1J$1c48972f-2d07-44e8-ad85-ef66b9108be0
+m	java:S106c"+Replace this use of System.out by a logger.(à°„¨8Í°Íˆö1J$8d93fc27-0ff5-4a5d-aa57-60e58b3ac829
+l	java:S106f"+Replace this use of System.out by a logger.(¿ó’68Í°Íˆö1J$2556c25d-ffcc-413a-9787-c7790413afb5
+l
+java:S1905w")Remove this unnecessary cast to "Object".(Şì¾Î8Í°Íˆö1J$98c94681-f055-4b5d-8a47-659cceca87d8
+r	java:S106x"+Replace this use of System.out by a logger.(‚é€Şûÿÿÿÿ8Î°Íˆö1J$28ecc9a4-4c4c-405f-9ed1-4132cc63978a
+q
+java:S1905{")Remove this unnecessary cast to "Object".(Ô›ªÚÿÿÿÿÿ8Î°Íˆö1J$c9bf671f-ba28-4e7d-872d-078d083062ce
+l
+java:S1905|")Remove this unnecessary cast to "Object".(¥Ïì8Î°Íˆö1J$6952def4-e12b-499c-aaaf-3ca6b30ff524
+q
+java:S1905}")Remove this unnecessary cast to "Object".(şÑÄ°øÿÿÿÿ8Î°Íˆö1J$1360e0bc-81b0-4ac5-83cc-06fa229e985a
+q
+java:S1905~")Remove this unnecessary cast to "Object".(ÖÄÎ‡üÿÿÿÿ8Î°Íˆö1J$e8888c7d-5367-40dd-93cf-ff3c6dca09f2
+q
+java:S1905")Remove this unnecessary cast to "Object".(‰ØÔôüÿÿÿÿ8Î°Íˆö1J$3a51bfff-2116-47e2-a9de-0789cff36b2f
+r
+java:S1905€")Remove this unnecessary cast to "Object".(î©ßúÿÿÿÿ8Î°Íˆö1J$f4201de9-bd18-4497-8213-89c5f8317eb7
+s	java:S106"+Replace this use of System.out by a logger.(€êÛ†üÿÿÿÿ8Î°Íˆö1J$781f1dba-29e4-4680-a29d-de713b938f12

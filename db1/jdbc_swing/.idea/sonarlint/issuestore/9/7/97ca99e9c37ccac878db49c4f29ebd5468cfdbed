@@ -1,0 +1,16 @@
+
+q
+java:S1604š"(Make this anonymous inner class a lambda(úàáùÿÿÿÿ8½Âà†ö1J$8bd8f679-6664-43e6-bd32-d76347fb9a67
+q
+java:S1604¯"(Make this anonymous inner class a lambda(½øö—ûÿÿÿÿ8½Âà†ö1J$8d73b649-e8dd-4336-b2bd-09d501a7da23
+q
+java:S1604Í"(Make this anonymous inner class a lambda(ƒøÑıÿÿÿÿ8¾Âà†ö1J$5aca374e-bb61-4a0c-b696-f05b6c570018
+q
+java:S1604ç"(Make this anonymous inner class a lambda(Ğ‚›Ûşÿÿÿÿ8£ô÷‡ö1J$924ec41c-628c-4f2e-89a3-cf9942a62b3e
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„ÀèÕúÿÿÿÿ8¾Âà†ö1J$782fc493-82fb-4e1e-a903-33e1b6982e55
+{
+java:S1854Õ"7Remove this useless assignment to local variable "dto".(¯Ë³ƒ8ÎÂà†ö1J$097892ed-0911-4fb1-ba1f-9e76ef2d2c32
+l
+java:S1481Õ"(Remove this unused "dto" local variable.(¯Ë³ƒ8ÏÂà†ö1J$75fc4ef0-3c92-498b-83e3-1109d4a97c72
+’
+java:S3252õ"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8ÏÂà†ö1J$0bb87bc6-43a2-46ac-aa4a-aa8925ab577c

@@ -1,0 +1,20 @@
+
+ˆ
+java:S2259J"@A "NullPointerException" could be thrown; "ps" is nullable here.(Š¡²Äşÿÿÿÿ8£—Íõ1J$b767bff3-4123-445c-9491-c8c5cc38b5bc
+’
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8£—Íõ1J$aeda159c-40f1-4d14-a2bc-4c213b541afe
+
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8£—Íõ1J$d2f7357a-cf1b-4158-85b8-25efea663ef0
+r	java:S106"+Replace this use of System.out by a logger.(©ËÑ½ûÿÿÿÿ8¦—Íõ1J$7f888d48-3cc7-45e5-ad56-4d1ccc495a1f
+~
+java:S6437"6Revoke and change this password, as it is compromised.(ÏÚŸÅşÿÿÿÿ8¦—Íõ1J$7e8724b4-ace6-41e1-b78b-8f6684b53c67
+m	java:S106"+Replace this use of System.out by a logger.(Å²Öî8¦—Íõ1J$ea728da1-91b9-4c99-b1fb-84655b2bb9a9
+r	java:S106"+Replace this use of System.out by a logger.(Õê‹–ùÿÿÿÿ8§—Íõ1J$ca4392de-692d-406e-8d78-634f16f77312
+r	java:S106 "+Replace this use of System.out by a logger.(¶´ûÿÿÿÿ8§—Íõ1J$d615c6ae-8f1c-415b-b9e0-93a6700a5a12
+r	java:S106&"+Replace this use of System.out by a logger.(¸ÚÅğøÿÿÿÿ8§—Íõ1J$e2edfed5-a5ae-4fad-9c7a-284336e4f6b6
+m	java:S106*"+Replace this use of System.out by a logger.(¼ŸÇå8§—Íõ1J$5f200dcc-130e-4c05-893c-97e3d235e8e0
+m	java:S106+"+Replace this use of System.out by a logger.(Óç£Ã8§—Íõ1J$29f9bad0-de21-4c98-9e37-6e819dabb170
+r	java:S106/"+Replace this use of System.out by a logger.(õ¢İÅÿÿÿÿÿ8§—Íõ1J$278e1021-923c-4cec-811c-02788d1ff462
+m	java:S1061"+Replace this use of System.out by a logger.(ÕĞá°8©—Íõ1J$4da10fdc-aada-4eb3-9f2c-0afb79f478b4
+r	java:S1066"+Replace this use of System.out by a logger.(‚Á¤Ÿûÿÿÿÿ8©—Íõ1J$2c97fbc7-2b63-4683-8981-0b49e5eb9332
+r	java:S106D"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8©—Íõ1J$793b5196-8b16-44a6-a7ec-b073cca50b7d

@@ -1,0 +1,14 @@
+
+p
+java:S1604K"(Make this anonymous inner class a lambda(Ù§èúÿÿÿÿ8÷¬Ô»ö1J$a8a95a31-5aa3-4d02-8dfe-381c294381b9
+†
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(á‡Ÿüþÿÿÿÿ8­Ô»ö1J$cf3e1c8f-0a2c-4ec5-8a4a-53fed16534eb
+r	java:S106 "+Replace this use of System.out by a logger.(öªÚÍøÿÿÿÿ8­Ô»ö1J$0a6bdb77-563d-4e9b-9741-2fe465dfa0e2
+m	java:S106""+Replace this use of System.out by a logger.(¼°Ãî8­Ô»ö1J$6b7d92fb-9c16-4c05-b812-7bbae06d6d1b
+†
+java:S11550">Use isEmpty() to check whether the collection is empty or not.(á‡Ÿüþÿÿÿÿ8’­Ô»ö1J$106602df-0a38-46e3-971d-8dc7eeee71a6
+r	java:S1061"+Replace this use of System.out by a logger.(öªÚÍøÿÿÿÿ8’­Ô»ö1J$9a8a9abd-7cca-4e57-866f-7d2ddc5a9946
+m	java:S1063"+Replace this use of System.out by a logger.(¼°Ãî8’­Ô»ö1J$c11ca5d6-d367-4bb7-89f9-424eae897592
+ƒ	java:S125F"<This block of commented-out lines of code should be removed.(ƒ÷ºøÿÿÿÿ8•­Ô»ö1J$11752885-5cd2-4d21-80ba-4367e85b06fa
+‘
+java:S3252`"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿ8–­Ô»ö1J$df60b675-9f3e-455b-8f7f-acd371792c94

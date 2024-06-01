@@ -1,0 +1,46 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+
+
+
+
+
+
+
+
+
+
+
+-- New script in STR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 4:52:45
+
+
+
+CREATE USER computer
+IDENTIFIED BY 1234;
+
+GRANT CONNECT, resource, dba TO computer;
+
+CREATE USER mouse
+IDENTIFIED BY 1111;
+
+GRANT CONNECT TO mouse;
+
+
+CREATE USER keyboard
+IDENTIFIED BY 1234;
+/*Error occurred during SQL query execution
+
+이유:
+ SQL Error [1031] [42000]: ORA-01031: 권한이 불충분합니다*/
+
+REVOKE resource FROM computer;
+REVOKE CREATE TABLE FROM computer;
+CREATE TABLE test2(
+	ID VARCHAR2(100)	
+);
+

@@ -1,0 +1,35 @@
+-- CONNECTION: url=jdbc:mysql://DESKTOP-MD0C8U4:3306/
+
+-- New script in ROOT.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 10.
+-- Time: 오전 11:01:11
+
+-- mysql scott 찾기
+
+GRANT ALL PRIVILEGES ON *.* TO 'scott'@%;
+-- Public Key Retrieval is not allowed : 커넥션 세팅에서 고칠 것!!
+
+
+USE scott;
+
+DROP TABLE MEMBER;
+
+CREATE TABLE member(
+	id int AUTO_INCREMENT PRIMARY KEY,
+	pw varchar(10),
+	name varchar(10),
+	tel varchar(10),
+	CREATE_date timestamp
+
+);
+
+
+
+INSERT INTO MEMBER
+values(NULL, 1, '리사','010',now());
+
+COMMIT;
+

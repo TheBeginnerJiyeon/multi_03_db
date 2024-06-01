@@ -1,0 +1,146 @@
+{
+	"folders": {},
+	"connections": {
+		"dbeaver-sample-database-sqlite-1": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "DBeaver Sample Database (SQLite)",
+			"save-password": true,
+			"show-system-objects": true,
+			"configuration": {
+				"database": "C:\\Users\\dkswl\\OneDrive\\Documents\\code_upload\\Auto_window\\multi_it\\backend\\db\\db1\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"url": "jdbc:sqlite:C:\\Users\\dkswl\\OneDrive\\Documents\\code_upload\\Auto_window\\multi_it\\backend\\db\\db1\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true
+			}
+		},
+		"mysql8-18f3c461bfa-21fe0936290d0a3f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "ROOT",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native",
+				"bootstrap": {
+					"txnIsolation": 2
+				}
+			}
+		},
+		"mysql8-18f51a795b8-64ac05e13fea7d8": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "SCOTT",
+			"save-password": true,
+			"configuration": {
+				"host": "DESKTOP-MD0C8U4",
+				"port": "3306",
+				"url": "jdbc:mysql://DESKTOP-MD0C8U4:3306/",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"oracle_thin-18f5d8fb556-530aff5af3365b6d": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "SYSTEM",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oracle\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-18f5d9d0db8-1d803d45a8e93add": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "SCOTT",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oracle\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-18f70432bbb-a6441439d0a1672": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "STUDENT",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oracle\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"virtual-models": {"oracle_thin-18f5d9d0db8-1d803d45a8e93add":{"SCOTT":{"@properties":{"erd.diagram.state":{"serialized":"<diagram version=\"1\" name=\"empty\" time=\"202405111633\"><entities><data-source id=\"oracle_thin-18f5d9d0db8-1d803d45a8e93add\"><entity id=\"1\" name=\"BOARD\" fq-name=\"SCOTT.BOARD\" order=\"0\" font=\"Segoe UI:9:0\" x=\"568\" y=\"402\"><path name=\"SCOTT\"/></entity><entity id=\"2\" name=\"ITEMS\" fq-name=\"SCOTT.ITEMS\" order=\"1\" font=\"Segoe UI:9:0\" x=\"285\" y=\"118\"><path name=\"SCOTT\"/></entity><entity id=\"3\" name=\"ITEM_INVT\" fq-name=\"SCOTT.ITEM_INVT\" order=\"2\" font=\"Segoe UI:9:0\" x=\"481\" y=\"107\"><path name=\"SCOTT\"/></entity><entity id=\"4\" name=\"LEVELS\" fq-name=\"SCOTT.LEVELS\" order=\"3\" font=\"Segoe UI:9:0\" x=\"296\" y=\"285\"><path name=\"SCOTT\"/></entity><entity id=\"5\" name=\"RECORD\" fq-name=\"SCOTT.&quot;RECORD&quot;\" order=\"4\" font=\"Segoe UI:9:0\" x=\"482\" y=\"256\"><path name=\"SCOTT\"/></entity><entity id=\"6\" name=\"USERS\" fq-name=\"SCOTT.USERS\" order=\"5\" font=\"Segoe UI:9:0\" x=\"708\" y=\"111\"><path name=\"SCOTT\"/></entity></data-source></entities><relations><relation name=\"FK_ITEM_NO\" fq-name=\"SCOTT.ITEM_INVT.FK_ITEM_NO\" type=\"fk\" pk-ref=\"2\" fk-ref=\"3\"/><relation name=\"SYS_C007069\" fq-name=\"SCOTT.&quot;RECORD&quot;.SYS_C007069\" type=\"fk\" pk-ref=\"4\" fk-ref=\"5\"/><relation name=\"SYS_C007064\" fq-name=\"SCOTT.BOARD.SYS_C007064\" type=\"fk\" pk-ref=\"6\" fk-ref=\"1\"/><relation name=\"FK_USER_ID\" fq-name=\"SCOTT.ITEM_INVT.FK_USER_ID\" type=\"fk\" pk-ref=\"6\" fk-ref=\"3\"/><relation name=\"SYS_C007068\" fq-name=\"SCOTT.&quot;RECORD&quot;.SYS_C007068\" type=\"fk\" pk-ref=\"6\" fk-ref=\"5\"/></relations></diagram>"}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

@@ -1,0 +1,746 @@
+2024-05-15 20:12:45.686 - DBeaver 24.0.3.202404211624 is starting
+2024-05-15 20:12:45.687 - OS: Windows 11 10.0 (amd64)
+2024-05-15 20:12:45.687 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-15 20:12:45.687 - Install path: 'C:\Users\dkswl\AppData\Local\DBeaver'
+2024-05-15 20:12:45.687 - Instance path: 'file:/C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/db/db1/'
+2024-05-15 20:12:45.689 - Memory available 64Mb/1024Mb
+2024-05-15 20:12:45.695 - Create display
+2024-05-15 20:12:45.790 - Initialize desktop platform...
+2024-05-15 20:12:45.894 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-05-15 20:12:46.040 - Initialize base platform...
+2024-05-15 20:12:46.059 - Platform initialized (269ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-05-15 20:12:46.129 - Starting instance server at http://localhost:61982
+2024-05-15 20:12:46.136 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-05-15 20:12:47.800 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
+2024-05-15 20:12:47.903 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-05-15 20:12:47.968 - Create actions
+2024-05-15 20:12:47.973 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-15 20:12:47.973 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-15 20:12:47.973 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-15 20:12:47.973 - Create workbench actions
+2024-05-15 20:12:48.269 - Initialize workbench window
+2024-05-15 20:12:48.272 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.129.202404211624]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.166.202404211624]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.135.202404211624]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.89.202404211624]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+2024-05-15 20:12:49.035 - Connect with 'SCOTT' (oracle_thin-18f5d9d0db8-1d803d45a8e93add)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+2024-05-15 20:12:49.066 - Execution context opened (SCOTT; Main; 0)
+2024-05-15 20:12:49.306 - Execution context opened (SCOTT; Metadata; 1)
+2024-05-15 20:12:49.386 - Connected (oracle_thin-18f5d9d0db8-1d803d45a8e93add, Oracle JDBC driver [11.2.0.3.0])
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
+2024-05-15 20:12:51.818 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
+2024-05-15 20:13:07.413 - Connect with 'HR' (oracle_thin-18f75430f35-b9ae912f334027d)
+2024-05-15 20:13:07.414 - Execution context opened (HR; Main; 2)
+2024-05-15 20:13:07.436 - Execution context opened (HR; Metadata; 3)
+2024-05-15 20:13:07.465 - Connected (oracle_thin-18f75430f35-b9ae912f334027d, Oracle JDBC driver [11.2.0.3.0])
+2024-05-15 20:13:07.535 - Execution context opened (HR; SQLEditor <day07_oracle_scott.sql>; 4)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2024-05-15 20:44:05.066 - Object 'BIN$3dpwgvGGQ4uF2E+3dh5pug==$0' owner 'BIN$Ji3Z4c1DTnOTKZyYQyDWWA==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$7Ou2pAC7QzaJWoJZxkqKrg==$0' owner 'BIN$JfRnxUS3SDqjDIjw3IHkWw==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$8mO4Seh9RdaIMZM3QMN4Ng==$0' owner 'BIN$T7UG0rDVR9ulC3RvugYWpw==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$9oL4ts4WRvecg+s4N+IT4w==$0' owner 'BIN$0tP7OSFUQn+JqZGc45DpLQ==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$A0lUBa/LTcW+GyLJ57QJ2g==$0' owner 'BIN$axa/9z+YRnOiRq9nyFKxZA==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$A5GdyHSeT7+vhAPxcSel0A==$0' owner 'BIN$sk9YtIVmQKym1yRqJKsQ2A==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$BCugvx5ARFC22ZeNwUStLQ==$0' owner 'BIN$kqnmrGHKQHyAAIwAbqm1EQ==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$BW6+FVCJSdKfXS15ekYnDQ==$0' owner 'BIN$sk9YtIVmQKym1yRqJKsQ2A==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$Co2e+2xjSWSCPPXvzZ63TA==$0' owner 'BIN$CUgR29M3QAukcXh6yqV61A==$0' not found
+2024-05-15 20:44:05.067 - Object 'BIN$Ctf2GCpsQOyPR9VvL18kJQ==$0' owner 'BIN$GbDgEJlXTB6Py8m6uu6w6w==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$Ctf2GCpsQOyPR9VvL18kJQ==$0' owner 'BIN$GbDgEJlXTB6Py8m6uu6w6w==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$D4ECqn8qR1Kx8y9UCh62lw==$0' owner 'BIN$axa/9z+YRnOiRq9nyFKxZA==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$DfaMoa+HROe9aqnR3x9JWg==$0' owner 'BIN$bEY+5mNzRBax3etZ1P+hzw==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$FgUbbNSjTZ2RI4IZ8Wop6Q==$0' owner 'BIN$gGxwc/wOS5aMC7Fg2XOtPw==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$JQpZJQX7QtyknlC2pHWRcQ==$0' owner 'BIN$axa/9z+YRnOiRq9nyFKxZA==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$K7iPOYEGQRK2TDGoHzWG1w==$0' owner 'BIN$Rx7yiy9IRcezpWVrWBTv7w==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$MXfhM7JPSdiEm7FFUtjfdg==$0' owner 'BIN$zhHg3jCkS4G2zM4m29DJDg==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$Oh4whvg7RTuenkx4jDnYpg==$0' owner 'BIN$Rx7yiy9IRcezpWVrWBTv7w==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$QSsUATIlRtaejxjDNDM3pQ==$0' owner 'BIN$bAHtkUu9Q8W7T/8034P5lA==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$SSM4uGMJQh+yA4bv61ZztA==$0' owner 'BIN$JfRnxUS3SDqjDIjw3IHkWw==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$ShTw6KWlQ2mO2cCVzHTsmw==$0' owner 'BIN$PUrYWV/pRNqWqHkRyTdwGQ==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$Wys/OnKUTkeF3rPM8GuhWA==$0' owner 'BIN$SkJ6F2OAQneSELzqwgH4rQ==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$Wys/OnKUTkeF3rPM8GuhWA==$0' owner 'BIN$SkJ6F2OAQneSELzqwgH4rQ==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$ZlsffgOpRviOdF9LxPUt8A==$0' owner 'BIN$EnkpehMkRJ6wDDDPP/Sf+Q==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$d5/lJN6SRHm52qIMFOkUSw==$0' owner 'BIN$9hbpjN9nSH6BfVmzFRO3Bg==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$gRi9nYWFR6y3noHUHPrIyA==$0' owner 'BIN$T7UG0rDVR9ulC3RvugYWpw==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$hhzxvZ5fTzO9IlJHUfj/Kg==$0' owner 'BIN$6bUVLQt7S3WzjW3lRE+JQw==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$hoAQ/VNeRYWlq0bY9LP3Ew==$0' owner 'BIN$3xqSXDt3Qk6RR4gpOTU4uQ==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$iO5w9p94SsKI6xDoT5RBfQ==$0' owner 'BIN$R+sHPPfFShme+9YTnuwLJA==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$j7gGbk4dQH+3oNX9ReACPA==$0' owner 'BIN$7S7FJxTPSJy8r26e5mwxyg==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$ju1K/OqBSpeOwgG9dQOTJw==$0' owner 'BIN$zhHg3jCkS4G2zM4m29DJDg==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$kS4lCG2VSme+qWXnJwYwLg==$0' owner 'BIN$JfRnxUS3SDqjDIjw3IHkWw==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$l0FGFym1RB2bPTw0D7ERqQ==$0' owner 'BIN$zhHg3jCkS4G2zM4m29DJDg==$0' not found
+2024-05-15 20:44:05.068 - Object 'BIN$lNcq2l9ASnaBuO54RH49dA==$0' owner 'BIN$CUgR29M3QAukcXh6yqV61A==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$m1wsAgD+SVGQa5cnqnVxCA==$0' owner 'BIN$CYSE9HEqTYe3CGeZiRFVkA==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$mVn8Iyu3SAiIl7seONq1Rg==$0' owner 'BIN$kqnmrGHKQHyAAIwAbqm1EQ==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$ohf6b0sHQFSouiqJhWqqzA==$0' owner 'BIN$bAHtkUu9Q8W7T/8034P5lA==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$u069G3dMTlGNkWsYBeH5rQ==$0' owner 'BIN$kqnmrGHKQHyAAIwAbqm1EQ==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$uzTq5FgzS+mC5k45tYL8qg==$0' owner 'BIN$QB/MB9JzRVuBUYiWy7/4tQ==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$vE7/YZyHSHyeZN0XgD2MoA==$0' owner 'BIN$55hqFNHQRxyeDqtuQBUM3A==$0' not found
+2024-05-15 20:44:05.069 - Object 'BIN$wj5Fc7PWQrWfhnEfNe3zTQ==$0' owner 'BIN$3xqSXDt3Qk6RR4gpOTU4uQ==$0' not found
+2024-05-15 20:44:05.071 - Can't get column 'COLUMN_NAMES_NUMS': 부적합한 열 이름
+2024-05-15 20:47:49.960 - Execution context opened (SCOTT; SQLEditor <day07_oracle_scott.sql>; 5)
+2024-05-15 20:47:49.971 - Execution context closed (HR, 4)
+2024-05-15 20:47:57.090 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:47:57.090 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:47:57.090 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:47:57.091 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:47:57.091 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:47:57.091 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:47:57.091 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:47:57.091 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:47:57.093 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:47:57.093 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:47:57.093 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:47:57.094 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:47:57.094 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:47:57.094 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:47:57.095 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:47:57.095 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:48:27.426 - Execution context opened (HR; SQLEditor <GAME.sql>; 6)
+2024-05-15 20:48:27.568 - Execution context opened (HR; SQLEditor <day07_oracle_scott.sql>; 7)
+2024-05-15 20:48:27.579 - Execution context closed (SCOTT, 5)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:48:27.776 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:48:27.777 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:48:27.777 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:48:27.777 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:48:27.777 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:48:27.777 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:48:27.777 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:48:27.778 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:48:27.778 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:48:27.784 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:48:27.784 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:48:27.784 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:48:27.785 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:48:27.786 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:48:27.786 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:48:27.786 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:48:27.786 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:48:27.786 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:48:27.786 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:48:27.838 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:48:27.839 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:48:27.839 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:48:27.839 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:48:27.839 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:48:27.839 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:48:27.841 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.507 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:195)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1036)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1916)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1878)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:318)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+2024-05-15 20:56:55.578 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 20:56:55.579 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 20:56:55.579 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-15 20:56:55.706 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.707 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.708 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.708 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.708 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.708 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.708 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.708 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.710 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.711 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.711 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.711 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.711 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.711 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.727 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.729 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.729 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.729 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.729 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.729 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.729 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.730 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.730 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.730 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.730 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.730 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.731 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.751 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.752 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.752 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.752 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.752 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.753 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.753 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.753 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.754 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.754 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.754 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.754 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.754 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.754 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.755 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.776 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.777 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:55.778 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:56:55.778 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:56:55.779 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:56:59.507 - Execution context opened (SCOTT; SQLEditor <GAME.sql>; 8)
+2024-05-15 20:56:59.517 - Execution context closed (HR, 6)
+2024-05-15 20:57:04.649 - Event loop exception
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.text.source.IAnnotationModel.getAnnotationIterator()" because the return value of "org.eclipse.jface.text.source.ISourceViewer.getAnnotationModel()" is null
+	at org.jkiss.dbeaver.ui.editors.sql.util.SQLAnnotationHover.getHoverInfo(SQLAnnotationHover.java:103)
+	at org.eclipse.jface.text.source.AnnotationBarHoverManager.computeInformation(AnnotationBarHoverManager.java:346)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-15 20:57:04.761 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1] [23000]: ORA-00001: unique constraint (SCOTT.SYS_C007070) violated
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SCOTT.SYS_C007070) violated
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:195)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1036)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1916)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1878)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:318)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:57:04.920 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:57:04.921 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:57:04.921 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:57:04.921 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:57:04.921 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:57:04.921 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:57:04.923 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:57:04.923 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:57:04.923 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:57:04.923 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:57:04.923 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:57:04.924 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:58:32.423 - Execution context opened (HR; SQLEditor <GAME.sql>; 9)
+2024-05-15 20:58:32.434 - Execution context closed (SCOTT, 8)
+2024-05-15 20:58:32.521 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:58:32.521 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:58:32.521 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:58:32.521 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:58:32.521 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:58:32.522 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 20:58:32.524 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 20:58:32.526 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 20:58:32.526 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 20:58:42.829 - Execution context opened (SCOTT; SQLEditor <GAME.sql>; 10)
+2024-05-15 20:58:42.840 - Execution context closed (HR, 9)
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
+2024-05-15 20:59:46.092 - SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:195)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1036)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1916)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1878)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:318)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-15 20:59:46.188 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 20:59:46.189 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 20:59:46.189 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-15 20:59:49.328 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 20:59:49.329 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 20:59:49.329 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-15 20:59:49.411 - SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+
+Error position: line: 144 pos: 11
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: table or view does not exist
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:195)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1036)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1916)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1878)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:318)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-15 21:00:03.136 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 21:00:03.136 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-05-15 21:00:03.136 - Can't obtain procedure metadata nor jdbc metadata
+2024-05-15 21:00:03.204 - SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 47 pos: 16
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:951)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:195)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1036)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1916)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1878)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:318)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-05-15 21:00:45.330 - Execution context opened (HR; SQLEditor <GAME.sql>; 11)
+2024-05-15 21:00:45.341 - Execution context closed (SCOTT, 10)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:00:45.479 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:00:45.480 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:00:45.480 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:00:45.480 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:00:45.480 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:00:45.481 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:00:45.482 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:00:47.890 - Execution context opened (SCOTT; SQLEditor <GAME.sql>; 12)
+2024-05-15 21:00:47.901 - Execution context closed (HR, 11)
+2024-05-15 21:01:26.909 - Execution context opened (HR; SQLEditor <GAME.sql>; 13)
+2024-05-15 21:01:26.921 - Execution context closed (SCOTT, 12)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:01:26.939 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:01:26.940 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:01:26.942 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:01:26.943 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:01:26.943 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:52:52.691 - Execution context opened (SCOTT; SQLEditor <day07_oracle_scott.sql>; 14)
+2024-05-15 21:52:52.707 - Execution context closed (HR, 7)
+2024-05-15 21:54:01.984 - Execution context opened (HR; SQLEditor <day07_oracle_scott.sql>; 15)
+2024-05-15 21:54:01.994 - Execution context closed (SCOTT, 14)
+2024-05-15 21:54:02.072 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:54:02.072 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:54:02.072 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:54:02.072 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:54:02.073 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:54:02.077 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:54:02.078 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:54:02.078 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:54:02.078 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:54:02.078 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:54:02.080 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:54:02.080 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:54:02.080 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:54:02.081 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:54:02.081 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:54:02.081 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:54:02.081 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:54:02.082 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:54:02.082 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:54:02.082 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:54:02.082 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:54:02.101 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:54:02.102 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:54:02.102 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:54:02.102 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:54:02.102 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)
+2024-05-15 21:54:02.102 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/day02_mysql.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/day03_oracle_hr.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_hr.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f5b3af3fd-57dbb2198538b9a0 not found in project General (/General/Scripts/day04_oracle_scott.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/day06_oracle_scott.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f55de7e19-3444e4cef96c14dc not found in project General (/General/Scripts/DB_20240507_안지연.SQL)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/DB_202405089_안지연.SQL)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/eclipse.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3d8af798-258b22fed01fb076 not found in project General (/General/Scripts/homework.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-1.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script-2.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f71551f0a-1e1f9d64708d8fa3 not found in project General (/General/Scripts/Script-11.sql)
+2024-05-15 21:54:02.104 - Datasource oracle_thin-18f3db9c996-14d3d81bc8b1d691 not found in project General (/General/Scripts/Script.sql)

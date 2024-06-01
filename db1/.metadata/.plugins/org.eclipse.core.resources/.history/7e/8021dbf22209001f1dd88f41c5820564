@@ -1,0 +1,18 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in STR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 4:52:45
+
+
+
+CREATE USER computer
+IDENTIFIED BY 1234;
+
+GRANT CONNECT TO computer;
+
+CREATE TABLE TEST1(
+	ID VARCHAR2(100)
+);

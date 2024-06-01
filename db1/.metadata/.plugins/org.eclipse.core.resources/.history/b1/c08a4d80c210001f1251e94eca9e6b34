@@ -1,0 +1,122 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 13.
+-- Time: 오전 9:37:56
+
+
+
+--@SET SPERATION(집합연산)
+-- 두개이상의 테이블에서 조인을 사용하지않고 연관된 데이터를 조회하는 방법
+-- 여러개의 질의 결과를 연결하여 하나로 결합하는 방식 
+-- 각테이블의 조회결과를 하나의 테이블에 합쳐서 반환함 
+
+-- 조건 : SELECT 절의 "컬럼수가 동일"해야함
+--       SELECT 절의 동일 위채에 존재하는 "컬럼의 데이터 타입이 상호호환"가능해야함.
+
+-- UNION, UNION ALL, INTERSECT, MINUS
+
+-- UNION : 여러개의 쿼리결과를 하나로 합치는 연산자이다. 
+--         중복된 영역의 제외하여 하나로 합친다.
+
+
+SELECT
+	EMPNO, 
+	ENAME,
+	DEPTNO ,
+	SAL
+FROM EMP
+WHERE DEPTNO = '10'
+
+UNION
+
+SELECT
+	EMPNO, 
+	ENAME,
+	DEPTNO ,
+	SAL
+FROM EMP
+WHERE SAL >= 1500; -- UNION 하면 중복 제거 
+
+
+
+-- UNION ALL : 여러개의 쿼리결과를 하나로 합치는 연산자
+-- UNION 과의 차이점은 중복영역을 모두 포함시킨다.
+
+SELECT
+	EMPNO, 
+	ENAME,
+	DEPTNO ,
+	SAL
+FROM EMP
+WHERE DEPTNO = '10'
+
+UNION ALL
+
+SELECT
+	EMPNO, 
+	ENAME,
+	DEPTNO ,
+	SAL
+FROM EMP
+WHERE SAL >= 1500; -- UNION ALL 하면 중복까지 다 포함
+
+
+
+--INTERSECT : 여러개의 SELECT 한 결과에서 공통된 부분만 결과로 추출
+-- 수학에서 교집합과 비슷
+
+
+
+SELECT
+	EMPNO, 
+	ENAME,
+	DEPTNO ,
+	SAL
+FROM EMP
+WHERE DEPTNO = '10'
+
+INTERSECT 
+
+SELECT
+	EMPNO, 
+	ENAME,
+	DEPTNO ,
+	SAL
+FROM EMP
+WHERE SAL >= 1500;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

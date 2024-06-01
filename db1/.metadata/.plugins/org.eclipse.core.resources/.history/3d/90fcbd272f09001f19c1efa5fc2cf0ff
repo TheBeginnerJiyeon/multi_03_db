@@ -1,0 +1,20 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in STR 3.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 3:51:18
+
+
+
+grant resource, CREATE table to APPLE;
+
+REVOKE resource, CREATE table from APPLE;
+
+CREATE TABLE test12(id varchar2(100));
+
+
+COMMIT;
+
+

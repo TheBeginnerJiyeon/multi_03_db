@@ -1,0 +1,48 @@
+
+	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú™ˆö1J$7916238f-f79e-4614-857f-03450b643ef9
+	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú™ˆö1J$bbcd9c57-0f69-4eca-b487-7f6fa99b21f9
+	java:S112Æ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú™ˆö1J$abf3bea4-1938-4ea9-8c26-5c7252b6c24c
+	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú™ˆö1J$1a4e60cf-6d0e-4c29-a867-afc27e304c7a
+	java:S112ª"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú™ˆö1J$c3ae591f-4ad9-4d0f-b659-8820f614cb9a
+
+java:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(úãæ¯8Ä§ˆö1J$fab67d95-5712-4eaa-be10-325b85cb74be
+
+java:S1192J"UDefine a constant instead of duplicating this literal "íŠ¸ëœì­ì…˜ ë¡¤ë°±." 4 times.(ßÒ‚¬øÿÿÿÿ8Ú™ˆö1J$b31106dd-0934-4301-bf0d-ef6e1e940387
+¨
+java:S11924"eDefine a constant instead of duplicating this literal "5. sqlë¬¸ ì „ì†¡ ì„±ê³µ, ê²°ê³¼1 >> " 3 times.(¼ŸÇå8Ú™ˆö1J$91fd3c81-6471-40b7-8973-704d9b6f3352
+ 
+java:S1192="XDefine a constant instead of duplicating this literal "ë°ì´í„° ì…ë ¥ ì‹¤íŒ¨" 3 times.(‚Á¤Ÿûÿÿÿÿ8Ú™ˆö1J$d1a144ae-f0a2-4ec7-8655-9fe140b959dd
+¢
+java:S11929"_Define a constant instead of duplicating this literal "6. íŠ¸ëœì­ì…˜ ì»¤ë°‹ ì™„ë£Œ." 3 times.(ÕĞá°8Ú™ˆö1J$649c0c88-0ca2-4d6b-a395-98373ec61fba
+¨
+java:S11920"`Define a constant instead of duplicating this literal "4. sqlë¬¸ ê°ì²´ ìƒì„± ì„±ê³µ." 4 times.(¸ÚÅğøÿÿÿÿ8Ú™ˆö1J$9ddbb1de-f237-4b83-baab-c9b935441b09
+ 
+java:S11927"XDefine a constant instead of duplicating this literal "ë°ì´í„° ì…ë ¥ ì™„ë£Œ" 3 times.(õ¢İÅÿÿÿÿÿ8Ú™ˆö1J$8aa51c76-bb5c-4459-82da-8f15bceb2c52
+¹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‚ÒôÑøÿÿÿÿ8Ú™ˆö1J$bc481f2e-7d6d-4487-af67-4a3432d705de
+m	java:S106"+Replace this use of System.out by a logger.(ĞˆŞñ8­Ú™ˆö1J$2ec4ae75-2852-4977-a343-2b6e50eab2f9
+r	java:S1060"+Replace this use of System.out by a logger.(¸ÚÅğøÿÿÿÿ8®Ú™ˆö1J$515e17e3-c153-4a2e-8ea9-81348de0b243
+m	java:S1064"+Replace this use of System.out by a logger.(¼ŸÇå8®Ú™ˆö1J$a57499eb-1e45-4f49-be50-bbb43ce10946
+r	java:S1067"+Replace this use of System.out by a logger.(õ¢İÅÿÿÿÿÿ8¯Ú™ˆö1J$06c1e838-2fee-4cb0-a059-e4816f8a5e36
+m	java:S1069"+Replace this use of System.out by a logger.(ÕĞá°8¯Ú™ˆö1J$52562352-090f-4fa4-a85e-df4b779994ef
+r	java:S106="+Replace this use of System.out by a logger.(‚Á¤Ÿûÿÿÿÿ8¯Ú™ˆö1J$86131735-ebbc-4ec2-bf02-fff295cd891e
+l	java:S106C"+Replace this use of System.out by a logger.(Ú—‰D8¯Ú™ˆö1J$1d7b239d-0c34-4941-9bcd-41785b34e71c
+r	java:S106J"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8¯Ú™ˆö1J$77208bc7-ba36-47dd-9297-3b9dea972f7e
+r	java:S106m"+Replace this use of System.out by a logger.(¸ÚÅğøÿÿÿÿ8°Ú™ˆö1J$efc0b846-868d-49e8-8b5e-666256d9c87d
+m	java:S106q"+Replace this use of System.out by a logger.(¼ŸÇå8±Ú™ˆö1J$b3e187db-9f08-4d2a-b683-809a94b2bdee
+r	java:S106t"+Replace this use of System.out by a logger.(õ¢İÅÿÿÿÿÿ8±Ú™ˆö1J$7e725429-581e-4218-bc29-3e4d93e29f9b
+m	java:S106v"+Replace this use of System.out by a logger.(ÕĞá°8±Ú™ˆö1J$1bae9a05-9667-4853-804c-fbf14da3b739
+r	java:S106z"+Replace this use of System.out by a logger.(‚Á¤Ÿûÿÿÿÿ8±Ú™ˆö1J$0b831381-ba02-41b2-9c91-3602697f24ef
+s	java:S106€"+Replace this use of System.out by a logger.(¹£Ìûÿÿÿÿ8±Ú™ˆö1J$7607b4e7-1fe2-45f5-b233-2ea79da8429d
+s	java:S106‡"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8±Ú™ˆö1J$28f3e5c4-4ad3-44b2-a2fa-5b4659e84bea
+s	java:S106¨"+Replace this use of System.out by a logger.(¸ÚÅğøÿÿÿÿ8³Ú™ˆö1J$72766042-cc35-400b-a8ba-9efca5c75d00
+n	java:S106¬"+Replace this use of System.out by a logger.(¼ŸÇå8³Ú™ˆö1J$e9c8eff0-45b8-4c35-95eb-169883a55118
+s	java:S106¯"+Replace this use of System.out by a logger.(õ¢İÅÿÿÿÿÿ8³Ú™ˆö1J$babf2224-66e6-4660-a824-d06d7c96deda
+n	java:S106±"+Replace this use of System.out by a logger.(ÕĞá°8³Ú™ˆö1J$fe984e83-0760-4de1-8c7e-7c050aac5c86
+s	java:S106µ"+Replace this use of System.out by a logger.(‚Á¤Ÿûÿÿÿÿ8³Ú™ˆö1J$b98f086d-7501-4db8-931f-0e34a3aae254
+s	java:S106»"+Replace this use of System.out by a logger.(¡µÁÀıÿÿÿÿ8´Ú™ˆö1J$f2fc2872-b45b-42f9-b61e-7c147fc9219c
+s	java:S106Â"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8´Ú™ˆö1J$f947f986-4ede-4d0f-86ae-c7266618b884
+s	java:S106ä"+Replace this use of System.out by a logger.(¸ÚÅğøÿÿÿÿ8´Ú™ˆö1J$c88f1680-cbb7-4d24-b46f-4bef00dbdfdc
+s	java:S106ô"+Replace this use of System.out by a logger.(«¶Ø½úÿÿÿÿ8µÚ™ˆö1J$43f056ef-e29e-4c80-b3fa-4955dcf3ae38
+s	java:S106ù"+Replace this use of System.out by a logger.(ˆ Üğùÿÿÿÿ8µÚ™ˆö1J$ecfcbc7d-1c20-4de0-ab32-dede739703c4
+s	java:S106€"+Replace this use of System.out by a logger.(ßÒ‚¬øÿÿÿÿ8¶Ú™ˆö1J$5fa1d9d6-b90d-458d-ba9f-c31eb5d7f373

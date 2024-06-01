@@ -1,0 +1,39 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in STR 3.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 4:17:33
+
+
+
+
+SELECT * FROM hr.EMPLOYEES ;
+
+CREATE TABLE member(
+	id varchar2(100),
+	pw varchar2(100),
+	name varchar2(100),
+	tel varchar2(100)
+
+);
+
+--테이블 만들기 
+--[표현식] :
+--CREATE TABLE 테이블명(컬럼명 자료형(크기) , 컬럼명 자료형(크기)....);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

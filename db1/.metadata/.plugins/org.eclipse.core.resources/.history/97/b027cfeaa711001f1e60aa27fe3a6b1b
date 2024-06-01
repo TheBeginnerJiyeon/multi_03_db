@@ -1,0 +1,20 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+-- New script in HR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 14.
+-- Time: 오후 1:01:52
+
+
+--VIEW (뷰)
+--SELECT 쿼리문을 저장한 객체이다
+--실질적인 데이터를 저장하고 있지않음
+--테이블을 사용하는 것과 동일하게 사용할수있다.
+--매번 자주 사용하는 쿼리문을 정의 해 두고 싶을때 뷰를 생성
+--VIEW 를 한번 만들어두고 마치 테이블처럼 사용한다고 생각!
+--CREATE [OR REPLACE] VIEW 뷰이름 AS 서브쿼리
+
+
+
+

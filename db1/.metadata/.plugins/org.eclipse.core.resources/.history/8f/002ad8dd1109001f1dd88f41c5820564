@@ -1,0 +1,96 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in STR 2.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 2:51:33
+
+
+--
+-- Create Schema Script 
+--   Database Version   : 11.2.0.1.0 
+--   Toad Version       : 10.0.0.41 
+--   DB Connect String  : ORCL 
+--   Schema             : SCOTT 
+--   Script Created by  : SCOTT 
+--   Script Created at  : 11/06/2018 11:24:39 
+--   Physical Location  :  
+--   Notes              :  
+--
+
+-- Object Counts: 
+--   Indexes: 2         Columns: 2          
+--   Tables: 4          Columns: 18         Constraints: 3      
+
+
+CREATE TABLE BONUS
+(
+  ENAME  VARCHAR2(10 BYTE),
+  JOB    VARCHAR2(9 BYTE),
+  SAL    NUMBER,
+  COMM   NUMBER
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+CREATE TABLE DEPT
+(
+  DEPTNO  NUMBER(2),
+  DNAME   VARCHAR2(14 BYTE),
+  LOC     VARCHAR2(13 BYTE)
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+CREATE TABLE EMP
+(
+  EMPNO     NUMBER(4),
+  ENAME     VARCHAR2(10 BYTE),
+  JOB       VARCHAR2(9 BYTE),
+  MGR       NUMBER(4),
+  HIREDATE  DATE,
+  SAL       NUMBER(7,2),
+  COMM      NUMBER(7,2),
+  DEPTNO    NUMBER(2)
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+CREATE TABLE SALGRADE
+(
+  GRADE  NUMBER,
+  LOSAL  NUMBER,
+  HISAL  NUMBER
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+CREATE UNIQUE INDEX PK_DEPT ON DEPT
+(DEPTNO)
+LOGGING
+NOPARALLEL;
+
+
+CREATE UNIQUE INDEX PK_EMP ON EMP
+(EMPNO)
+LOGGING
+NOPARALLEL;
+
+

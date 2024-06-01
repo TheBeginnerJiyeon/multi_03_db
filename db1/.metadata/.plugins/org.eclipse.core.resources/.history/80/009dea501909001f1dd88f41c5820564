@@ -1,0 +1,104 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in STR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 2:18:54
+
+
+-- 오라클 계정생성 system 으로 연결후 생성하고 권한주기 
+/*create user scott identified by tiger;*/
+
+/*grant connect, resource, dba TO scott;*/
+
+/*사용자 계정.테이블명*/
+
+/*SELECT * FROM HR.EMPLOYEES;
+
+ALTER USER hr IDENTIFIED BY hr;
+
+--계정 수정, 언락
+ALTER USER hr ACCOUNT UNLOCK;*/
+
+
+/*CREATE USER apple
+IDENTIFIED BY 1234;*/
+
+/*
+SELECT * FROM ALL_USERS;
+
+GRANT CONNECT, resource, dba TO apple;
+*/
+
+/*CREATE USER apple
+IDENTIFIED BY 1234;*/
+/*SELECT * FROM ALL_USERS;*/
+
+/*CREATE TABLE test(id varchar2(100))
+
+SELECT * FROM TEST;*/
+
+
+/*계정삭제 --CASCADE해주어야 계정과 관련된 데이터가 모두 삭제됨.
+
+DROP USER apple;
+
+SELECT * FROM ALL_USERS;*/
+
+
+
+/*GRANT CONNECT, resource, dba, CREATE USER, CREATE table TO apple;
+grant create table, create user to apple;
+
+grant create table, create user to apple;-- ORA-01950: no privileges on tablespace 'SYSTEM'
+GRANT UNLIMITED TABLESPACE TO apple;*/
+
+-- RESOURCE: 사용자가 데이터베이스 오브젝트(예: 테이블, 인덱스, 시퀀스 등)를 생성
+-- CONNECT: 사용자가 데이터베이스에 접속할 수 있는 기본적인 권한을 제공
+-- DBA: 가장 높은 수준의 권한을 부여하며, 데이터베이스 관리자와 같은 모든 권한을 포함
+
+/*REVOKE resource FROM APPLE;
+COMMIT;*/
+-- apple에서 삭제
+/*DROP TABLE test;*/
+
+
+
+/*CREATE TABLE test4(id varchar2(100));*/
+
+--DDL(CREATE TABLE ) 및 제약조건
+
+--DDL(DATA DEFINITION LANGUAGE) : 데이터 정의  언어
+--객체(OBJECT) 를 만들고 (CREATE) , 수정(ALTER) 하고 삭제(DROP)하는 구문
+
+--오라클에서의 객체 
+--테이블 (TABLE), 뷰(VIEW), 시퀀스(SEQUENCE) , 인덱스(INDEX)
+--패키지 (PACKAGE), 트리거(TRIGGER), 동의어(SYNONYM),
+--프로시져(PROCEDURE), 함수(FUNCTION), 사용자 (USER)
+
+
+
+/*REVOKE resource FROM APPLE;
+COMMIT;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

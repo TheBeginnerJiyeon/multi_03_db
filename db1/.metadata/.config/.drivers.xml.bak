@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="mysql">
+		<driver id="mysql8" categories="sql" name="MySQL" class="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://{host}[:{port}]/[{database}]" port="3306" defaultUser="root" description="Driver for MySQL 8 and later" custom="false">
+			<library type="jar" path="maven:/com.mysql:mysql-connector-j:RELEASE" custom="false" version="8.2.0">
+				<file id="com.mysql:mysql-connector-j:RELEASE" version="8.2.0" path="${drivers_home}\maven\maven-central\com.mysql\mysql-connector-j-8.2.0.jar"/>
+				<file id="com.google.protobuf:protobuf-java:3.21.9" version="3.21.9" path="${drivers_home}\maven\maven-central\com.google.protobuf\protobuf-java-3.21.9.jar"/>
+			</library>
+			<library type="license" path="https://www.gnu.org/licenses/old-licenses/lgpl-2.0.txt" custom="false">
+				<file id="https://www.gnu.org/licenses/old-licenses/lgpl-2.0.txt" path="${drivers_home}\remote\licenses\old-licenses\lgpl-2.0.txt"/>
+			</library>
+		</driver>
+	</provider>
+	<provider id="oracle">
+		<driver id="oracle_thin" categories="sql" name="Oracle" class="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@{host}[:{port}]/{database}" port="1521" defaultDatabase="XE" defaultUser="system" description="Oracle JDBC driver" custom="false">
+			<library type="jar" path="maven:/com.oracle.database.jdbc:ojdbc11:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
+			<library type="jar" path="maven:/com.oracle.database.nls:orai18n:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
+			<library type="jar" path="maven:/com.oracle.database.xml:xdb6:RELEASE" custom="false" disabled="true" version="18.3.0.0"/>
+			<library type="jar" path="maven:/com.oracle.database.xml:xmlparserv2:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
+			<library type="jar" path="C:\oracle\app\oracle\product\19.0.0.0\db_1\jdbc\lib\ojdbc8.jar" custom="true"/>
+		</driver>
+	</provider>
+	<provider id="sqlite">
+		<driver id="sqlite_jdbc" categories="sql,embedded" name="SQLite" class="org.sqlite.JDBC" url="jdbc:sqlite:{file}" description="SQLite JDBC driver" custom="false" embedded="true" anonymous="true">
+			<library type="jar" path="maven:/org.xerial:sqlite-jdbc:RELEASE" custom="false">
+				<file id="org.xerial:sqlite-jdbc:RELEASE" version="3.45.3.0" path="${drivers_home}\maven\maven-central\org.xerial\sqlite-jdbc-3.45.3.0.jar"/>
+				<file id="org.slf4j:slf4j-api:1.7.36" version="1.7.36" path="${drivers_home}\maven\maven-central\org.slf4j\slf4j-api-1.7.36.jar"/>
+			</library>
+			<library type="license" path="https://www.apache.org/licenses/LICENSE-2.0.txt" custom="false">
+				<file id="https://www.apache.org/licenses/LICENSE-2.0.txt" path="${drivers_home}\remote\licenses\LICENSE-2.0.txt"/>
+			</library>
+		</driver>
+	</provider>
+</drivers>

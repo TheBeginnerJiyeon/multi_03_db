@@ -1,0 +1,18 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SYSTEM.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 6:31:27
+
+
+SELECT * FROM emp;
+
+SELECT empno, ename, job FROM emp;
+
+SELECT DISTINCT empno FROM emp;
+
+SELECT ALL job, deptno FROM emp;
+
+SELECT deptno, empno, ename, sal, sal*12+comm AS money, comm FROM emp  WHERE ename>'S'  ORDER BY money DESC;

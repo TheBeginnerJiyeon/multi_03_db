@@ -1,0 +1,7 @@
+
+³
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñ«²’8ë«¿ƒ÷1J$07bea236-a12a-4b49-805e-c59a8a0969fe
+¤
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "list".(µïÇ§ûÿÿÿÿ8ë«¿ƒ÷1J$a98f403c-f4b2-4749-8396-5c0b967da59b
+œ
+java:S1488+"YImmediately return this expression instead of assigning it to the temporary variable "m".(›ÂÊÊ8ë«¿ƒ÷1J$34a382d2-5ec8-4829-9621-1d93e55698ae

@@ -1,0 +1,18 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in STR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 3:22:36
+
+
+
+/*CREATE USER apple IDENTIFIED BY 1234;*/
+
+
+/*GRANT CONNECT, resource, dba TO apple;*/
+
+CREATE TABLE test(id varchar2(100));
+
+/*DROP USER apple;*/

@@ -1,0 +1,134 @@
+/*
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SYSTEM.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 3.
+-- Time: 오후 6:31:27
+
+
+/*SELECT * FROM emp;
+
+SELECT empno, ename, job FROM emp;
+
+SELECT DISTINCT empno FROM emp;
+
+SELECT ALL job, deptno FROM emp;
+
+SELECT deptno, empno, ename, sal, sal*12+comm AS money, comm FROM emp  WHERE COMM IS NOT NULL ORDER BY money DESC;
+
+SELECT EMPNO,DEPTNO, ENAME, SAL, COMM FROM EMP
+
+INTERSECT
+
+SELECT EMPNO,DEPTNO, ENAME, SAL, COMM FROM EMP WHERE DEPTNO=20
+
+ORDER BY DEPTNO ASC;
+
+SELECT ENAME, UPPER(ENAME), LOWER(ENAME), INITCAP(ENAME)  FROM EMP WHERE ENAME LIKE '%S%';
+
+SELECT ename, LENGTHB(ename), LENGTH(ename)  FROM EMP WHERE ENAME LIke UPPER('scott'); 
+
+
+
+
+SELECT ename, SUBSTR(ename, -LENGTH(ename),2) FROM emp WHERE ename LIKE '%S%'; 
+
+SELECT ename,  INSTR(ename,'S') AS instr1 FROM emp WHERE ename LIKE '%S%'; 
+
+SELECT '010-1234-5678' AS replace1, 
+REPLACE('010-1234-5678','-','**') AS replace2
+
+
+FROM dual;
+
+
+SELECT 'Oracle' AS replace1,
+		LPAD('Oracle',10, '#') AS replace2,
+		RPAD('Oracle', 10, '*') AS replace2
+		FROM dual;
+
+
+SELECT deptno, ename , CONCAT(deptno, CONCAT(' : ', ename)) AS concat1 FROM emp; */
+
+/*
+SELECT '[' || TRIM(LEADING '_' FROM '__oracle__') || ']' AS trim1,
+	  '[' ||	trim(TRAILING '_' FROM '___oracle__') || ']' AS trim2,
+	  '[' ||	trim(BOTH '_' FROM '___oracle__') || ']' AS trim2
+
+		FROM dual;
+
+
+
+
+SELECT '[' || LTRIM('__^^oracle^^__','_^') || ']' AS trim1,
+	  '[' || RTRIM('^^___oracle_^^_','_^') || ']' AS trim2
+
+		FROM dual;
+*/
+
+/*
+SELECT round(1234.5678, 2) AS round FROM dual;
+SELECT trunc(1234.5678, -2) AS round FROM dual;
+
+
+SELECT mod(100,3) AS mod1 FROM dual;
+
+
+
+SELECT SYSDATE AS now, SYSDATE -1 AS yesterday, sysdate +1 AS tomorrow FROM dual;
+
+
+SELECT SYSDATE  AS now, ADD_MONTHS(sysdate, 3) FROM dual; 
+
+
+
+
+
+SELECT * FROM emp WHERE MONTHS_BETWEEN(SYSDATE, HIREDATE)>=0;  
+
+
+SELECT sysdate, NEXT_DAY(SYSDATE, '월요일'), LAST_DAY(SYSDATE) FROM dual;  
+
+
+
+SELECT SYSDATE , TO_CHAR(SYSDATE, 'MM') AS MM,
+TO_CHAR(SYSDATE, 'MON') AS MON,
+TO_CHAR(SYSDATE, 'MONTH', 'NLS_DATE_LANGUAGE = JAPANESE') AS MONTH,
+TO_CHAR(SYSDATE, 'DD') AS DD,
+TO_CHAR(SYSDATE, 'DY') AS DY,
+TO_CHAR(SYSDATE, 'DAY') AS DAY
+FROM DUAL;
+
+
+
+SELECT SYSDATE,
+TO_CHAR(SYSDATE, 'HH24:MI:SS') AS H24MISS ,
+TO_CHAR(SYSDATE, 'HH12:MI:SS AM') AS HHMISS_AM ,
+TO_CHAR(SYSDATE, 'HH:MI:SS P.M.') AS HIMISS_PM FROM DUAL; 
+
+
+
+SELECT SAL, TO_CHAR(SAL, '$999,999') AS SAL_$,
+TO_CHAR(SAL, 'L999,999') AS SAL_L,
+TO_CHAR(SAL, '999,999.00') AS SAL_1,
+TO_CHAR(SAL, '000,999,999.00') AS SAL_2,
+TO_CHAR(SAL, '000999999.99') AS SAL_3,
+TO_CHAR(SAL, '999,999,00') AS SAL_4
+FROM EMP;
+
+
+
+SELECT '1300' - '1200' AS TOT FROM DUAL;
+
+
+SELECT TO_NUMBER('1,300','999,999') - TO_NUMBER('1,200' , '999,999')  FROM DUAL; 
+
+
+
+SELECT TO_DATE('2018-01-12','YYYY-MM-DD') AS TODATE1,
+TO_DATE('20180112','YYYY-MM-DD') AS TODATE2
+FROM DUAL;
+*/
+
